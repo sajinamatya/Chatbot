@@ -154,7 +154,7 @@ def main():
                 raw_text = extract_pdf_text(pdf_docs)
                 text_chunks = extract_text_chunks(raw_text)
                 get_vector_store(text_chunks)
-                st.success("Done")
+                st.success("completed")
 
     st.info("Let's chat ")
     user_question = st.text_input("Ask your doubt?")
