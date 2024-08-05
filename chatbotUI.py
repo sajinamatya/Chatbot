@@ -86,7 +86,7 @@ def user_prompt(user_question):
     if "phone_number" not in st.session_state:
         st.session_state.phone_number = ""
     
-    response = chain(
+    response = chain.invoke(
         {"input_documents":docs, "question": user_question,
         "user_name": st.session_state.user_name,
         "user_email": st.session_state.user_email,
