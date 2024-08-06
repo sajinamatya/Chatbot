@@ -15,6 +15,7 @@ import google.generativeai as genai
 load_dotenv()
 
 
+#function to extract the text form the document uploaded by the user
 def extract_pdf_text(document):
     """ Extract the text from the document uploaded by the user 
     Args: document
@@ -29,7 +30,7 @@ def extract_pdf_text(document):
     return  text
 
 
-
+# function to split the text extracted from the document into bunch of chunk 
 def extract_text_chunks(text):
     """ This function breaks down the text into chunk for further processing for huge document"""
     # splitting the text data into a bunch of chunk for efficient processing by the model
@@ -40,6 +41,7 @@ def extract_text_chunks(text):
     return chunks
 
 
+# function to embedded the text and use faiss tools for vector store
 def get_vector_store(text_chunks):
     """This function performs text embedding as model understand numeric values only and the  FAISS is used for the vector store local."""
     # Google embedding model for converting textual data to numeric data 
@@ -50,6 +52,7 @@ def get_vector_store(text_chunks):
     vector_store.save_local("faiss_index")
 
 
+#function to create a conversation chain between the custome prompt and model 
 def conversation_chain():
     """ Creation of chain for the chat model with the proper prompt template to train the model on basis of user information and document uploaded
         Args: NONE
