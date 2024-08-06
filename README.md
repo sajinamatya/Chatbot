@@ -13,9 +13,10 @@ Chatbot UI
 
 
 
-References
+# References
 
 https://towardsdatascience.com/4-ways-of-question-answering-in-langchain-188c6707cc5a
 https://www.youtube.com/watch?v=dXxQ0LR-3Hg
 https://medium.com/@Kishore-B/building-rag-application-using-langchain-openai-faiss-3b2af23d98ba\
 https://python.langchain.com/v0.2/docs/integrations/vectorstores/faiss_async/
+https://medium.com/@akash.hiremath25/unlocking-the-power-of-intelligence-building-an-application-with-gemini-python-and-faiss-for-eb9a055d2429
