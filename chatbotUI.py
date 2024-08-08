@@ -187,7 +187,7 @@ def main():
     # if the user ask the question then this condition is triggered
     if user_question:
         # If the user haven't submitted their pdf then error is raised 
-        if pdf_docs is not None and submit_button:
+        if pdf_docs is not None:
             # If a question is asked after submitting a document
             user_prompt(user_question)
         # if user didn't submit their document 
