@@ -23,10 +23,9 @@ def extract_pdf_text(document):
 
     text=""
     #loop for extraction of text from each pages of the document
-    for pdf in document:
-        pdf_reader= PdfReader(pdf)
-        for page in pdf_reader.pages:
-            text+= page.extract_text()
+    pdf_reader= PdfReader(pdf)
+    for page in pdf_reader.pages:
+        text+= page.extract_text()
     return  text
 
 
