@@ -23,7 +23,7 @@ def extract_pdf_text(document):
 
     text=""
     #loop for extraction of text from each pages of the document
-    pdf_reader= PdfReader(pdf)
+    pdf_reader= PdfReader(document)
     for page in pdf_reader.pages:
         text+= page.extract_text()
     return  text
