@@ -1,6 +1,9 @@
 
 
 # Chatbot implemented by Langchain and Gemini llm
+
+### Features : User can submit their  document and ask the question related to the document 
+
 ### Deplotment link : https://sajinamatya-chatbot-chatbotui-zrtjxk.streamlit.app/
 
 
