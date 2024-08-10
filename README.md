@@ -2,7 +2,16 @@
 
 # Chatbot implemented by Langchain and Gemini llm
 
+
 ### Features : User can submit their  document and ask the question related to the document 
+
+
+### Requirement : 
+'''' pip install -r requirements. txt
+
+
+
+
 
 ### Deployment link : 
 https://sajinamatya-chatbot-chatbotui-zrtjxk.streamlit.app/
