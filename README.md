@@ -4,7 +4,7 @@
 
 ### Features : User can submit their  document and ask the question related to the document 
 
-### Deplotment link : 
+### Deployment link : 
 https://sajinamatya-chatbot-chatbotui-zrtjxk.streamlit.app/
 
 
