@@ -3,6 +3,10 @@
 # Chatbot implemented by Langchain and Gemini llm
 
 
+### Tools and libraries :
+    python, streamlit, PyPDF2, Langchain, google_genai, google Embedding, FAISS 
+
+
 ### Features : User can submit their  document and ask the question related to the document 
 
 ### Clone this repo:
