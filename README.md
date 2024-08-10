@@ -5,7 +5,10 @@
 
 ### Features : User can submit their  document and ask the question related to the document 
 
+### Clone this repo:
+ ``` git clone https://github.com/sajinamatya/Chatbot.git ```
 
+ 
 ### Requirement : 
 ``` pip install -r requirements. txt ```
 
