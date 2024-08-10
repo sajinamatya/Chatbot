@@ -7,7 +7,12 @@
     python, streamlit, PyPDF2, Langchain, google_genai, google Embedding, FAISS 
 
 
-### Features : User can submit their  document and ask the question related to the document 
+### Features :
+    Input Textfield to collect the user information for processing it to the model 
+    File input field where the user submit their document.
+    User can ask their  question or doubt to the chatbot related to the document 
+
+
 
 ### Clone this repo:
  ``` git clone https://github.com/sajinamatya/Chatbot.git ```
